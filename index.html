@@ -12,24 +12,15 @@
 
     <p>February 10, 2026</p>
 
-    <img src="media/ch03_image-to-map.jpg" alt="Provided Image" usemap="#imagemap">
+    <img src="media/ch03_image-to-map.jpg"  usemap="#imagemap">
 
-    <map name="imagemap">
-        <area shape="rect"
-              coords="50,50,200,150"
-              href="https://www.wikipedia.org"
-              alt="Wikipedia">
+  <img src="ch03_image-to-map.jpg" alt="Provided Image" usemap="#image-map">
 
-        <area shape="circle"
-              coords="300,150,50"
-              href="https://www.google.com"
-              alt="Google">
-
-        <area shape="poly"
-              coords="400,50,500,100,450,200,350,150"
-              href="https://cfcc.edu/"
-              alt="Cape Fear Community College">
-    </map>
+<map name="image-map">
+    <area target="_self" alt="Cape Fear Community College" title="Cape Fear Community College" href="https://cfcc.edu/" coords="600,1520,1249,1736" shape="rect">
+    <area target="_self" alt="Wikipedia" title="Wikipedia" href="https://www.wikipedia.org/" coords="378,1022,504,607,246,607,156,1031" shape="poly">
+    <area target="_self" alt="Google" title="Google" href="https://www.google.com/" coords="1445,435,250" shape="circle">
+</map>
 
 </body>
 </html>
