@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Map Activity</title>
+</head>
+<body>
+
+    <h1>Image Map Activity</h1>
+
+    <p>Alejandro Gonzalez</p>
+
+    <p>February 10, 2026</p>
+
+    <img src="media/ch03_image-to-map.jpg" alt="Provided Image" usemap="#imagemap">
+
+    <map name="imagemap">
+        <area shape="rect"
+              coords="50,50,200,150"
+              href="https://www.wikipedia.org"
+              alt="Wikipedia">
+
+        <area shape="circle"
+              coords="300,150,50"
+              href="https://www.google.com"
+              alt="Google">
+
+        <area shape="poly"
+              coords="400,50,500,100,450,200,350,150"
+              href="https://cfcc.edu/"
+              alt="Cape Fear Community College">
+    </map>
+
+</body>
+</html>
